@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Study Room</string>
+
+    <!-- Auth -->
+    <string name="login">Log in</string>
+    <string name="register">Create account</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="privacy_note">We only collect your name and email. Passwords are hashed by Supabase.</string>
+
+    <!-- Dashboard -->
+    <string name="my_tasks">My Tasks</string>
+    <string name="my_rooms">My Rooms</string>
+    <string name="create_room">Create Room</string>
+    <string name="join_with_code">Join with Code</string>
+
+    <!-- Room -->
+    <string name="tab_resources">Resources</string>
+    <string name="tab_materials">Materials</string>
+    <string name="tab_quizzes">Quizzes</string>
+    <string name="study_roadmap">Study Roadmap</string>
+    <string name="reviewer">Reviewer</string>
+    <string name="generate_roadmap">Generate Roadmap</string>
+    <string name="generate_reviewer">Generate Reviewer</string>
+    <string name="ai_assistant_hint">Ask AI to modify your study materials…</string>
+
+    <!-- AI labels (responsible AI, section 9) -->
+    <string name="ai_generated_label">AI-generated, please verify with your sources</string>
+    <string name="ai_offline_explanation">Connect to the internet to use AI.</string>
+    <string name="copyright_notice">Only upload materials you own or have permission to share.</string>
+
+    <!-- Offline / sync -->
+    <string name="offline_banner">You\'re offline. Showing saved data.</string>
+    <string name="sync_synced">Synced</string>
+    <string name="sync_syncing">Syncing…</string>
+    <string name="sync_waiting">Waiting to sync</string>
+    <string name="saved_offline">Saved offline, will sync</string>
+
+    <!-- Errors (section 7) -->
+    <string name="error_room_not_found">Room not found. Check the code and try again.</string>
+    <string name="error_no_access">You don\'t have access to this room.</string>
+    <string name="error_upload_first">Upload at least one resource first.</string>
+    <string name="error_network">Network error. Your changes are saved and will sync.</string>
+    <string name="retry">Retry</string>
+</resources>

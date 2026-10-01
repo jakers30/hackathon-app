@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Simple book / study glyph in teal, centered in the 108dp safe zone -->
+    <path
+        android:fillColor="#0F766E"
+        android:pathData="M34,36 h18 a8,8 0 0 1 8,8 v30 a6,6 0 0 0 -6,-6 h-20 z" />
+    <path
+        android:fillColor="#C2410C"
+        android:pathData="M74,36 h-18 a8,8 0 0 0 -8,8 v30 a6,6 0 0 1 6,-6 h20 z" />
+</vector>

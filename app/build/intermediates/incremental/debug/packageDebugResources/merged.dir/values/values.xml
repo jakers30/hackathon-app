@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#000000</color>
+    <color name="ic_launcher_background">#F6F8F8</color>
+    <color name="neutral_dark_bg">#0E1415</color>
+    <color name="neutral_light_bg">#F6F8F8</color>
+    <color name="orange">#C2410C</color>
+    <color name="teal">#0F766E</color>
+    <color name="white">#FFFFFF</color>
+    <string name="ai_assistant_hint">Ask AI to modify your study materials…</string>
+    <string name="ai_generated_label">AI-generated, please verify with your sources</string>
+    <string name="ai_offline_explanation">Connect to the internet to use AI.</string>
+    <string name="app_name">Study Room</string>
+    <string name="copyright_notice">Only upload materials you own or have permission to share.</string>
+    <string name="create_room">Create Room</string>
+    <string name="email">Email</string>
+    <string name="error_network">Network error. Your changes are saved and will sync.</string>
+    <string name="error_no_access">You don\'t have access to this room.</string>
+    <string name="error_room_not_found">Room not found. Check the code and try again.</string>
+    <string name="error_upload_first">Upload at least one resource first.</string>
+    <string name="generate_reviewer">Generate Reviewer</string>
+    <string name="generate_roadmap">Generate Roadmap</string>
+    <string name="join_with_code">Join with Code</string>
+    <string name="login">Log in</string>
+    <string name="my_rooms">My Rooms</string>
+    <string name="my_tasks">My Tasks</string>
+    <string name="name">Name</string>
+    <string name="offline_banner">You\'re offline. Showing saved data.</string>
+    <string name="password">Password</string>
+    <string name="privacy_note">We only collect your name and email. Passwords are hashed by Supabase.</string>
+    <string name="register">Create account</string>
+    <string name="retry">Retry</string>
+    <string name="reviewer">Reviewer</string>
+    <string name="saved_offline">Saved offline, will sync</string>
+    <string name="study_roadmap">Study Roadmap</string>
+    <string name="sync_synced">Synced</string>
+    <string name="sync_syncing">Syncing…</string>
+    <string name="sync_waiting">Waiting to sync</string>
+    <string name="tab_materials">Materials</string>
+    <string name="tab_quizzes">Quizzes</string>
+    <string name="tab_resources">Resources</string>
+    <style name="Theme.StudyRoom" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/neutral_light_bg</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="m">true</item>
+    </style>
+    <style name="Theme.StudyRoom.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/neutral_light_bg</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.StudyRoom</item>
+    </style>
+</resources>

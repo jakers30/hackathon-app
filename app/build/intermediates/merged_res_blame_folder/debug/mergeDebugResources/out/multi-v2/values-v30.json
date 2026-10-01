@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.raite.studyroom.app-mergeDebugResources-72:/values-v30/values-v30.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\304_Student17\\.gradle\\caches\\8.9\\transforms\\9480843f16dca48a544e112395a58fad\\transformed\\material3-release\\res\\values-v30\\values-v30.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "72",
+                        "endOffsets": "123"
+                    }
+                }
+            ]
+        }
+    ]
+}

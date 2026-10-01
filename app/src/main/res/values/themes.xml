@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. The real UI theme is defined in Compose
+         (ui/theme/Theme.kt). This XML theme only styles the window and splash. -->
+    <style name="Theme.StudyRoom" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/neutral_light_bg</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
+    <!-- Splash theme: no white flash (section 5.5). -->
+    <style name="Theme.StudyRoom.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/neutral_light_bg</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.StudyRoom</item>
+    </style>
+
+</resources>
