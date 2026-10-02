@@ -17,7 +17,7 @@ before publishing. Offline-first: Room (SQLite) is the source of truth.
 | Auth | Supabase Auth (`supabase-kt`), session cached for offline open |
 | Files | Supabase Storage (downloaded to app storage for offline use) |
 | AI proxy | Ktor (Kotlin) service, deployable to Cloud Run |
-| AI model | Gemini or Claude (env-selected) |
+| AI model | Deepseek |
 | Images | Coil · Settings | Jetpack DataStore |
 
 **The AI key never ships in the app.** The app calls only the proxy, which holds
