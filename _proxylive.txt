@@ -1,0 +1,10 @@
+02:23:33
+ok
+--- last proxy log lines ---
+02:18:34.426 [eventLoopGroupProxy-4-1] INFO  com.raite.aiproxy.SupabaseApi - resource 'Week-7-8-Part-1-of-1.docx' (application/vnd.openxmlformats-officedocument.wordprocessingml.document) -> 21632 bytes, 3192 chars of text
+02:18:42.999 [eventLoopGroupProxy-4-1] INFO  io.ktor.server.Application - 200 OK: POST - /ai/modify in 11983ms
+02:19:12.692 [eventLoopGroupProxy-4-4] INFO  io.ktor.server.Application - 500 Internal Server Error: POST - /ai/roadmap in 438ms
+02:19:48.241 [eventLoopGroupProxy-4-5] INFO  com.raite.aiproxy.SupabaseApi - resource 'sts-lessons-1-4-reviewer.pdf' (application/pdf) -> 17515 bytes, 11809 chars of text
+02:19:50.761 [eventLoopGroupProxy-4-5] INFO  io.ktor.server.Application - 200 OK: POST - /ai/roadmap in 5391ms
+02:23:34.127 [eventLoopGroupProxy-4-6] INFO  io.ktor.server.Application - 200 OK: GET - /health in 9ms
+END

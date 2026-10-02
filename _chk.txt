@@ -1,0 +1,13 @@
+start 02:10:44
+ps pid=9548 start=02:00:46
+ps pid=24256 start=02:00:46
+ps pid=29320 start=02:00:46
+ps pid=37412 start=02:00:46
+ps pid=44740 start=02:00:46
+ps pid=45044 start=02:10:40
+ps pid=45512 start=02:00:46
+ps pid=48176 start=02:02:11
+copied on try 1
+_e2e2.txt 2322 02:10:20
+_e2e2_copy.txt 2322 02:10:20
+ENDCHK

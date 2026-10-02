@@ -1,0 +1,24 @@
+﻿--- dex files ---
+classes.dex
+classes10.dex
+classes11.dex
+classes12.dex
+classes13.dex
+classes14.dex
+classes15.dex
+classes16.dex
+classes17.dex
+classes2.dex
+classes3.dex
+classes4.dex
+classes5.dex
+classes6.dex
+classes7.dex
+classes8.dex
+classes9.dex
+--- search supabase in dex ---
+no supabase.co match
+--- search http strings ---
+--- jdk zip size ---
+52571072
+DONE

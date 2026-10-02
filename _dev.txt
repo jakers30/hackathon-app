@@ -1,0 +1,31 @@
+﻿adb.exe : * daemon not running; starting now at tcp:5037
+At line:1 char:138
++ ... neDrive\Desktop\Hackathon\_dev.txt'; & $adb start-server 2>&1 | 
+Out-F ...
++                                          ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (* daemon not ru...now at 
+    tcp:5037:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+* daemon started successfully
+--- devices ---
+List of devices attached
+a61d9c1b               unauthorized transport_id:1
+
+--- sdk ---
+.downloadIntermediates
+.temp
+build-tools
+emulator
+fonts
+licenses
+platform-tools
+platforms
+skins
+sources
+system-images
+--- platforms ---
+android-37.0
+--- build-tools ---
+36.0.0
+--- DONE ---

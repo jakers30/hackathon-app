@@ -1,0 +1,4 @@
+﻿META-INF
+AndroidManifest.xml
+classes.jar
+R.txt

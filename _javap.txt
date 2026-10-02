@@ -1,0 +1,33 @@
+﻿Compiled from "BucketApi.kt"
+public interface io.github.jan.supabase.storage.BucketApi {
+  public static final io.github.jan.supabase.storage.BucketApi$Companion Companion;
+  public static final java.lang.String UPSERT_HEADER;
+  public abstract java.lang.String getBucketId();
+  public abstract io.github.jan.supabase.SupabaseClient getSupabaseClient();
+  public abstract io.github.jan.supabase.storage.resumable.ResumableClient getResumable();
+  public abstract java.lang.Object upload(java.lang.String, byte[], kotlin.jvm.functions.Function1<? super io.github.jan.supabase.storage.UploadOptionBuilder, kotlin.Unit>, kotlin.coroutines.Continuation<? super io.github.jan.supabase.storage.FileUploadResponse>);
+  public abstract java.lang.Object upload(java.lang.String, io.github.jan.supabase.storage.UploadData, kotlin.jvm.functions.Function1<? super io.github.jan.supabase.storage.UploadOptionBuilder, kotlin.Unit>, kotlin.coroutines.Continuation<? super io.github.jan.supabase.storage.FileUploadResponse>);
+  public abstract java.lang.Object uploadToSignedUrl(java.lang.String, java.lang.String, byte[], kotlin.jvm.functions.Function1<? super io.github.jan.supabase.storage.UploadOptionBuilder, kotlin.Unit>, kotlin.coroutines.Continuation<? super io.github.jan.supabase.storage.FileUploadResponse>);
+  public abstract java.lang.Object uploadToSignedUrl(java.lang.String, java.lang.String, io.github.jan.supabase.storage.UploadData, kotlin.jvm.functions.Function1<? super io.github.jan.supabase.storage.UploadOptionBuilder, kotlin.Unit>, kotlin.coroutines.Continuation<? super io.github.jan.supabase.storage.FileUploadResponse>);
+  public abstract java.lang.Object update(java.lang.String, byte[], kotlin.jvm.functions.Function1<? super io.github.jan.supabase.storage.UploadOptionBuilder, kotlin.Unit>, kotlin.coroutines.Continuation<? super io.github.jan.supabase.storage.FileUploadResponse>);
+  public abstract java.lang.Object update(java.lang.String, io.github.jan.supabase.storage.UploadData, kotlin.jvm.functions.Function1<? super io.github.jan.supabase.storage.UploadOptionBuilder, kotlin.Unit>, kotlin.coroutines.Continuation<? super io.github.jan.supabase.storage.FileUploadResponse>);
+  public abstract java.lang.Object delete(java.util.Collection<java.lang.String>, kotlin.coroutines.Continuation<? super kotlin.Unit>);
+  public abstract java.lang.Object delete(java.lang.String[], kotlin.coroutines.Continuation<? super kotlin.Unit>);
+  public abstract java.lang.Object move(java.lang.String, java.lang.String, java.lang.String, kotlin.coroutines.Continuation<? super kotlin.Unit>);
+  public abstract java.lang.Object copy(java.lang.String, java.lang.String, java.lang.String, kotlin.coroutines.Continuation<? super kotlin.Unit>);
+  public abstract java.lang.Object createSignedUploadUrl(java.lang.String, boolean, kotlin.coroutines.Continuation<? super io.github.jan.supabase.storage.UploadSignedUrl>);
+  public abstract java.lang.Object createSignedUrl-dWUq8MI(java.lang.String, long, kotlin.jvm.functions.Function1<? super io.github.jan.supabase.storage.ImageTransformation, kotlin.Unit>, kotlin.coroutines.Continuation<? super java.lang.String>);
+  public abstract java.lang.Object createSignedUrls-KLykuaI(long, java.util.Collection<java.lang.String>, kotlin.coroutines.Continuation<? super java.util.List<io.github.jan.supabase.storage.SignedUrl>>);
+  public abstract java.lang.Object createSignedUrls-KLykuaI(long, java.lang.String[], kotlin.coroutines.Continuation<? super java.util.List<io.github.jan.supabase.storage.SignedUrl>>);
+  public abstract java.lang.Object downloadAuthenticated(java.lang.String, kotlin.jvm.functions.Function1<? super io.github.jan.supabase.storage.DownloadOptionBuilder, kotlin.Unit>, kotlin.coroutines.Continuation<? super byte[]>);
+  public abstract java.lang.Object downloadAuthenticated(java.lang.String, io.ktor.utils.io.ByteWriteChannel, kotlin.jvm.functions.Function1<? super io.github.jan.supabase.storage.DownloadOptionBuilder, kotlin.Unit>, kotlin.coroutines.Continuation<? super kotlin.Unit>);
+  public abstract java.lang.Object downloadPublic(java.lang.String, kotlin.jvm.functions.Function1<? super io.github.jan.supabase.storage.DownloadOptionBuilder, kotlin.Unit>, kotlin.coroutines.Continuation<? super byte[]>);
+  public abstract java.lang.Object downloadPublic(java.lang.String, io.ktor.utils.io.ByteWriteChannel, kotlin.jvm.functions.Function1<? super io.github.jan.supabase.storage.DownloadOptionBuilder, kotlin.Unit>, kotlin.coroutines.Continuation<? super kotlin.Unit>);
+  public abstract java.lang.Object list(java.lang.String, kotlin.jvm.functions.Function1<? super io.github.jan.supabase.storage.BucketListFilter, kotlin.Unit>, kotlin.coroutines.Continuation<? super java.util.List<io.github.jan.supabase.storage.FileObject>>);
+  public abstract java.lang.Object changePublicStatusTo(boolean, kotlin.coroutines.Continuation<? super kotlin.Unit>);
+  public abstract java.lang.String publicUrl(java.lang.String);
+  public abstract java.lang.String authenticatedUrl(java.lang.String);
+  public abstract java.lang.String authenticatedRenderUrl(java.lang.String, kotlin.jvm.functions.Function1<? super io.github.jan.supabase.storage.ImageTransformation, kotlin.Unit>);
+  public abstract java.lang.String publicRenderUrl(java.lang.String, kotlin.jvm.functions.Function1<? super io.github.jan.supabase.storage.ImageTransformation, kotlin.Unit>);
+  static {};
+}

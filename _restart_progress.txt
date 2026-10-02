@@ -1,0 +1,7 @@
+start 02:16:29
+02:16:29  1/4 sync source -> mirror
+02:16:29      robocopy exit 3
+02:16:29  2/4 kill stale proxy JVMs
+02:16:29      stopping PID 34964
+02:16:29      killed: 34964
+02:16:30  3/4 start-ai-proxy.ps1 (rebuilds the new code and waits for /health)

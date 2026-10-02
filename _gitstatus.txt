@@ -1,0 +1,597 @@
+﻿ M .env.example
+ M README.md
+ M ai-proxy/.env.example
+ M ai-proxy/build.gradle.kts
+ M ai-proxy/src/main/kotlin/com/raite/aiproxy/AiProvider.kt
+ M ai-proxy/src/main/kotlin/com/raite/aiproxy/Application.kt
+ M ai-proxy/src/main/kotlin/com/raite/aiproxy/ClaudeProvider.kt
+ M ai-proxy/src/main/kotlin/com/raite/aiproxy/Config.kt
+ M ai-proxy/src/main/kotlin/com/raite/aiproxy/FileText.kt
+ M ai-proxy/src/main/kotlin/com/raite/aiproxy/GeminiProvider.kt
+ M ai-proxy/src/main/kotlin/com/raite/aiproxy/Prompts.kt
+ M ai-proxy/src/main/kotlin/com/raite/aiproxy/Routes.kt
+ M ai-proxy/src/main/kotlin/com/raite/aiproxy/Routes2.kt
+ M ai-proxy/src/main/kotlin/com/raite/aiproxy/SupabaseApi.kt
+ M app/build.gradle.kts
+ M app/build/generated/source/buildConfig/debug/com/raite/studyroom/BuildConfig.java
+ M app/build/intermediates/classes/debug/transformDebugClassesWithAsm/dirs/com/raite/studyroom/ui/screens/dashboard/DashboardScreenKt$DashboardScreen$2$invoke$lambda$8$lambda$7$$inlined$items$default$1.class
+ M app/build/intermediates/classes/debug/transformDebugClassesWithAsm/dirs/com/raite/studyroom/ui/screens/dashboard/DashboardScreenKt$DashboardScreen$2$invoke$lambda$8$lambda$7$$inlined$items$default$2.class
+ M app/build/intermediates/classes/debug/transformDebugClassesWithAsm/dirs/com/raite/studyroom/ui/screens/dashboard/DashboardScreenKt$DashboardScreen$2$invoke$lambda$8$lambda$7$$inlined$items$default$3.class
+ M app/build/intermediates/classes/debug/transformDebugClassesWithAsm/dirs/com/raite/studyroom/ui/screens/dashboard/DashboardScreenKt$DashboardScreen$2$invoke$lambda$8$lambda$7$$inlined$items$default$4.class
+ M app/build/intermediates/classes/debug/transformDebugClassesWithAsm/dirs/com/raite/studyroom/ui/screens/dashboard/DashboardScreenKt$DashboardScreen$2$invoke$lambda$8$lambda$7$$inlined$items$default$5.class
+ M app/build/intermediates/classes/debug/transformDebugClassesWithAsm/dirs/com/raite/studyroom/ui/screens/dashboard/DashboardScreenKt$DashboardScreen$2$invoke$lambda$8$lambda$7$$inlined$items$default$6.class
+ M app/build/intermediates/classes/debug/transformDebugClassesWithAsm/dirs/com/raite/studyroom/ui/screens/dashboard/DashboardScreenKt$DashboardScreen$2$invoke$lambda$8$lambda$7$$inlined$items$default$7.class
+ M app/build/intermediates/classes/debug/transformDebugClassesWithAsm/dirs/com/raite/studyroom/ui/screens/dashboard/DashboardScreenKt$DashboardScreen$2$invoke$lambda$8$lambda$7$$inlined$items$default$8.class
+ M app/build/intermediates/classes/debug/transformDebugClassesWithAsm/dirs/com/raite/studyroom/ui/screens/room/QuizReviewScreenKt$QuizReviewScreen$3$invoke$lambda$2$lambda$1$$inlined$itemsIndexed$default$1.class
+ M app/build/intermediates/classes/debug/transformDebugClassesWithAsm/dirs/com/raite/studyroom/ui/screens/room/QuizReviewScreenKt$QuizReviewScreen$3$invoke$lambda$2$lambda$1$$inlined$itemsIndexed$default$2.class
+ M app/build/intermediates/classes/debug/transformDebugClassesWithAsm/dirs/com/raite/studyroom/ui/screens/room/QuizReviewScreenKt$QuizReviewScreen$3$invoke$lambda$2$lambda$1$$inlined$itemsIndexed$default$3.class
+ M app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties
+ M app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-am/values-am.xml
+ M app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-bg/values-bg.xml
+ M app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-bn/values-bn.xml
+ M app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-da/values-da.xml
+ M app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-de/values-de.xml
+ M app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-gu/values-gu.xml
+ M app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-hu/values-hu.xml
+ M app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ja/values-ja.xml
+ M app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-km/values-km.xml
+ M app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ky/values-ky.xml
+ M app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-mk/values-mk.xml
+ M app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ml/values-ml.xml
+ M app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-my/values-my.xml
+ M app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-or/values-or.xml
+ M app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-si/values-si.xml
+ M app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sv/values-sv.xml
+ M app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-te/values-te.xml
+ M app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-uk/values-uk.xml
+ M app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v21/values-v21.xml
+ M app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v29/values-v29.xml
+ M app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+ M app/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/drawable_ic_launcher_foreground.xml.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/mipmap-anydpi-v26_ic_launcher.xml.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/mipmap-anydpi-v26_ic_launcher_round.xml.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-af_values-af.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-am_values-am.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-ar_values-ar.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-as_values-as.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-az_values-az.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-b+sr+Latn_values-b+sr+Latn.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-be_values-be.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-bg_values-bg.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-bn_values-bn.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-bs_values-bs.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-ca_values-ca.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-cs_values-cs.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-da_values-da.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-de_values-de.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-el_values-el.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-en-rAU_values-en-rAU.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-en-rCA_values-en-rCA.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-en-rGB_values-en-rGB.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-en-rIN_values-en-rIN.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-en-rXC_values-en-rXC.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-es-rUS_values-es-rUS.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-es_values-es.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-et_values-et.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-eu_values-eu.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-fa_values-fa.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-fi_values-fi.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-fr-rCA_values-fr-rCA.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-fr_values-fr.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-gl_values-gl.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-gu_values-gu.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-hi_values-hi.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-hr_values-hr.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-hu_values-hu.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-hy_values-hy.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-in_values-in.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-is_values-is.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-it_values-it.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-iw_values-iw.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-ja_values-ja.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-ka_values-ka.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-kk_values-kk.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-km_values-km.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-kn_values-kn.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-ko_values-ko.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-ky_values-ky.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-lo_values-lo.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-lt_values-lt.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-lv_values-lv.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-mk_values-mk.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-ml_values-ml.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-mn_values-mn.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-mr_values-mr.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-ms_values-ms.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-my_values-my.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-nb_values-nb.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-ne_values-ne.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-night-v8_values-night-v8.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-nl_values-nl.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-or_values-or.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-pa_values-pa.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-pl_values-pl.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-pt-rBR_values-pt-rBR.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-pt-rPT_values-pt-rPT.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-pt_values-pt.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-ro_values-ro.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-ru_values-ru.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-si_values-si.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-sk_values-sk.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-sl_values-sl.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-sq_values-sq.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-sr_values-sr.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-sv_values-sv.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-sw_values-sw.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-ta_values-ta.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-te_values-te.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-th_values-th.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-tl_values-tl.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-tr_values-tr.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-uk_values-uk.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-ur_values-ur.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-uz_values-uz.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-v21_values-v21.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-v23_values-v23.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-v27_values-v27.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-v29_values-v29.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-v30_values-v30.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-v31_values-v31.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-vi_values-vi.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-watch-v20_values-watch-v20.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-zh-rCN_values-zh-rCN.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-zh-rHK_values-zh-rHK.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-zh-rTW_values-zh-rTW.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values-zu_values-zu.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/values_values.arsc.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/xml_backup_rules.xml.flat
+ D app/build/intermediates/merged_res/debug/mergeDebugResources/xml_data_extraction_rules.xml.flat
+ M app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-am.json
+ M app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-bg.json
+ M app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-da.json
+ M app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-en-rIN.json
+ M app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-es.json
+ M app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-et.json
+ M app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-is.json
+ M app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ky.json
+ M app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-lt.json
+ M app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-night-v8.json
+ M app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-pa.json
+ M app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ru.json
+ M app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sk.json
+ M app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sl.json
+ M app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v31.json
+ M app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/raite/studyroom/ui/screens/room/QuizReviewScreenKt$QuizReviewScreen$3$invoke$lambda$2$lambda$1$$inlined$itemsIndexed$default$1.dex
+ M app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/raite/studyroom/ui/screens/room/QuizReviewScreenKt$QuizReviewScreen$3$invoke$lambda$2$lambda$1$$inlined$itemsIndexed$default$2.dex
+ M app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/raite/studyroom/ui/screens/room/QuizReviewScreenKt$QuizReviewScreen$3$invoke$lambda$2$lambda$1$$inlined$itemsIndexed$default$3.dex
+ M app/build/intermediates/source_set_path_map/debug/mapDebugSourceSetPaths/file-map.txt
+ M app/src/main/AndroidManifest.xml
+ M app/src/main/java/com/raite/studyroom/MainActivity.kt
+ M app/src/main/java/com/raite/studyroom/StudyRoomApp.kt
+ M app/src/main/java/com/raite/studyroom/data/local/dao/OutboxDao.kt
+ M app/src/main/java/com/raite/studyroom/data/local/dao/QuizDao.kt
+ M app/src/main/java/com/raite/studyroom/data/local/dao/ResourceDao.kt
+ M app/src/main/java/com/raite/studyroom/data/local/dao/RoomDao.kt
+ M app/src/main/java/com/raite/studyroom/data/local/dao/StudyMaterialDao.kt
+ M app/src/main/java/com/raite/studyroom/data/local/dao/TaskDao.kt
+ M app/src/main/java/com/raite/studyroom/data/remote/SupabaseContentSource.kt
+ M app/src/main/java/com/raite/studyroom/data/remote/SupabaseDataSource.kt
+ M app/src/main/java/com/raite/studyroom/data/remote/ai/AiProxyClient.kt
+ M app/src/main/java/com/raite/studyroom/data/repository/AuthRepository.kt
+ M app/src/main/java/com/raite/studyroom/data/repository/QuizRepository.kt
+ M app/src/main/java/com/raite/studyroom/data/repository/ResourceRepository.kt
+ M app/src/main/java/com/raite/studyroom/data/repository/RoomRepository.kt
+ M app/src/main/java/com/raite/studyroom/data/repository/SettingsRepository.kt
+ M app/src/main/java/com/raite/studyroom/data/repository/StudyMaterialRepository.kt
+ M app/src/main/java/com/raite/studyroom/data/repository/TaskRepository.kt
+ M app/src/main/java/com/raite/studyroom/data/sync/SyncScheduler.kt
+ M app/src/main/java/com/raite/studyroom/data/sync/SyncWorker.kt
+ M app/src/main/java/com/raite/studyroom/di/NetworkModule.kt
+ M app/src/main/java/com/raite/studyroom/ui/MainViewModel.kt
+ M app/src/main/java/com/raite/studyroom/ui/components/Common.kt
+ M app/src/main/java/com/raite/studyroom/ui/components/MainScaffold.kt
+ M app/src/main/java/com/raite/studyroom/ui/components/ReviewerComponents.kt
+ M app/src/main/java/com/raite/studyroom/ui/components/RoomCard.kt
+ M app/src/main/java/com/raite/studyroom/ui/components/TaskRow.kt
+ M app/src/main/java/com/raite/studyroom/ui/navigation/AppNavHost.kt
+ M app/src/main/java/com/raite/studyroom/ui/navigation/Routes.kt
+ M app/src/main/java/com/raite/studyroom/ui/screens/auth/AuthScreen.kt
+ M app/src/main/java/com/raite/studyroom/ui/screens/auth/AuthViewModel.kt
+ M app/src/main/java/com/raite/studyroom/ui/screens/dashboard/DashboardScreen.kt
+ M app/src/main/java/com/raite/studyroom/ui/screens/dashboard/DashboardViewModel.kt
+ M app/src/main/java/com/raite/studyroom/ui/screens/intro/IntroScreen.kt
+ M app/src/main/java/com/raite/studyroom/ui/screens/room/QuizCreateDialog.kt
+ M app/src/main/java/com/raite/studyroom/ui/screens/room/QuizReviewViewModel.kt
+ M app/src/main/java/com/raite/studyroom/ui/screens/room/QuizzesTab.kt
+ M app/src/main/java/com/raite/studyroom/ui/screens/room/RoomScreen.kt
+ M app/src/main/java/com/raite/studyroom/ui/screens/room/RoomTabs.kt
+ M app/src/main/java/com/raite/studyroom/ui/screens/room/RoomViewModel.kt
+ M app/src/main/java/com/raite/studyroom/ui/screens/rooms/CreateRoomScreen.kt
+ M app/src/main/java/com/raite/studyroom/ui/screens/rooms/RoomsScreen.kt
+ M app/src/main/java/com/raite/studyroom/ui/screens/rooms/RoomsViewModel.kt
+ M app/src/main/java/com/raite/studyroom/ui/screens/settings/SettingsScreen.kt
+ M app/src/main/java/com/raite/studyroom/ui/screens/settings/SettingsViewModel.kt
+ M app/src/main/java/com/raite/studyroom/ui/screens/tasks/TasksScreen.kt
+ M app/src/main/java/com/raite/studyroom/ui/screens/tasks/TasksViewModel.kt
+ M app/src/main/java/com/raite/studyroom/ui/theme/Color.kt
+ M app/src/main/java/com/raite/studyroom/ui/theme/Shape.kt
+ M app/src/main/java/com/raite/studyroom/ui/theme/Theme.kt
+ M app/src/main/java/com/raite/studyroom/util/Time.kt
+ M app/src/main/res/drawable/ic_launcher_foreground.xml
+ M app/src/main/res/values/colors.xml
+ M app/src/main/res/values/strings.xml
+ M supabase/policies.sql
+?? _build_check.log
+?? ai-proxy/src/main/kotlin/com/raite/aiproxy/DeepSeekProvider.kt
+?? ai-proxy/src/test/
+?? app/build/intermediates/compatible_screen_manifest/debug/createDebugCompatibleScreenManifests/output-metadata-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-af/values-af-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ar/values-ar-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-as/values-as-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-az/values-az-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-be/values-be-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-bs/values-bs-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ca/values-ca-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-cs/values-cs-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-el/values-el-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-es/values-es-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-et/values-et-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-eu/values-eu-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-fa/values-fa-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-fi/values-fi-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-fr/values-fr-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-gl/values-gl-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-hi/values-hi-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-hr/values-hr-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-hy/values-hy-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-in/values-in-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-is/values-is-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-it/values-it-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-iw/values-iw-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ka/values-ka-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-kk/values-kk-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-kn/values-kn-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ko/values-ko-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-lo/values-lo-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-lt/values-lt-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-lv/values-lv-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-mn/values-mn-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-mr/values-mr-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ms/values-ms-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-nb/values-nb-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ne/values-ne-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-night-v8/values-night-v8-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-nl/values-nl-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-pa/values-pa-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-pl/values-pl-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-pt/values-pt-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ro/values-ro-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ru/values-ru-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sk/values-sk-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sl/values-sl-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sq/values-sq-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sr/values-sr-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sw/values-sw-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ta/values-ta-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-th/values-th-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-tl/values-tl-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-tr/values-tr-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ur/values-ur-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-uz/values-uz-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v23/values-v23-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v27/values-v27-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v30/values-v30-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v31/values-v31-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-vi/values-vi-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-zu/values-zu-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values/values-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/mergeDebugResources/merger-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values/values-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/incremental/debug/packageDebugResources/merger-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/manifest_merge_blame_file/debug/processDebugMainManifest/manifest-merger-blame-debug-report-DESKTOP-DKFH0OB.txt
+?? app/build/intermediates/merged_manifest/debug/processDebugMainManifest/AndroidManifest-DESKTOP-DKFH0OB.xml
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/mergeDebugResources-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-af-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ar-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-as-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-az-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-b+sr+Latn-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-be-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-bn-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-bs-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ca-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-cs-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-de-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-el-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-en-rAU-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-en-rCA-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-en-rGB-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-en-rXC-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-es-rUS-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-eu-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-fa-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-fi-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-fr-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-fr-rCA-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-gl-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-gu-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-hi-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-hr-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-hu-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-hy-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-in-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-it-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-iw-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ja-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ka-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-kk-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-km-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-kn-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ko-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-lo-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-lv-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-mk-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ml-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-mn-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-mr-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ms-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-my-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-nb-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ne-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-nl-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-or-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-pl-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-pt-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-pt-rBR-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-pt-rPT-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ro-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-si-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sq-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sr-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sv-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sw-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ta-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-te-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-th-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-tl-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-tr-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-uk-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ur-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-uz-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v21-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v23-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v27-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v29-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v30-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-vi-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-watch-v20-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-zh-rCN-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-zh-rHK-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-zh-rTW-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-zu-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/single/mergeDebugResources-DESKTOP-DKFH0OB.json
+?? app/build/intermediates/packaged_res/debug/packageDebugResources/values/values-DESKTOP-DKFH0OB.xml
+?? app/build/outputs/logs/manifest-merger-debug-report-DESKTOP-DKFH0OB.txt
+?? app/src/main/java/com/raite/studyroom/data/notifications/
+?? app/src/main/java/com/raite/studyroom/data/remote/ai/AiBackend.kt
+?? app/src/main/java/com/raite/studyroom/ui/components/DeadlinePicker.kt
+?? app/src/main/java/com/raite/studyroom/ui/components/MainDrawer.kt
+?? app/src/main/java/com/raite/studyroom/ui/components/PasswordField.kt
+?? app/src/main/java/com/raite/studyroom/ui/navigation/DeepLink.kt
+?? app/src/main/java/com/raite/studyroom/ui/notifications/
+?? app/src/main/java/com/raite/studyroom/ui/screens/auth/ForgotPasswordScreen.kt
+?? app/src/main/java/com/raite/studyroom/ui/screens/auth/ForgotPasswordViewModel.kt
+?? app/src/main/java/com/raite/studyroom/ui/screens/auth/VerifyEmailStep.kt
+?? app/src/main/java/com/raite/studyroom/ui/screens/profile/
+?? app/src/main/java/com/raite/studyroom/ui/screens/tasks/TaskEditDialog.kt
+?? app/src/main/java/com/raite/studyroom/util/Deadline.kt
+?? app/src/main/res/drawable/ic_notification.xml
+?? supabase/cleanup.sql
+?? supabase/purge-storage-orphans.ps1
+?? supabase/verify-remote.ps1
+ .env.example                                       |   7 +-
+ README.md                                          | 285 ++++++++-
+ ai-proxy/.env.example                              |  14 +-
+ ai-proxy/build.gradle.kts                          |   4 +
+ .../main/kotlin/com/raite/aiproxy/AiProvider.kt    |   9 +
+ .../main/kotlin/com/raite/aiproxy/Application.kt   |  11 +
+ .../kotlin/com/raite/aiproxy/ClaudeProvider.kt     |   3 +
+ .../src/main/kotlin/com/raite/aiproxy/Config.kt    |  13 +
+ .../src/main/kotlin/com/raite/aiproxy/FileText.kt  |  56 +-
+ .../kotlin/com/raite/aiproxy/GeminiProvider.kt     |   3 +
+ .../src/main/kotlin/com/raite/aiproxy/Prompts.kt   |  35 +-
+ .../src/main/kotlin/com/raite/aiproxy/Routes.kt    |  30 +-
+ .../src/main/kotlin/com/raite/aiproxy/Routes2.kt   |  20 +-
+ .../main/kotlin/com/raite/aiproxy/SupabaseApi.kt   |  69 +-
+ app/build.gradle.kts                               |   2 +-
+ .../debug/com/raite/studyroom/BuildConfig.java     |   6 +-
+ .../compile-file-map.properties                    |  12 +-
+ .../compile-file-map.properties                    |  12 +-
+ .../drawable_ic_launcher_foreground.xml.flat       | Bin 916 -> 0 bytes
+ .../mipmap-anydpi-v26_ic_launcher.xml.flat         | Bin 572 -> 0 bytes
+ .../mipmap-anydpi-v26_ic_launcher_round.xml.flat   | Bin 584 -> 0 bytes
+ .../values-af_values-af.arsc.flat                  | Bin 6472 -> 0 bytes
+ .../values-am_values-am.arsc.flat                  | Bin 7556 -> 0 bytes
+ .../values-ar_values-ar.arsc.flat                  | Bin 7736 -> 0 bytes
+ .../values-as_values-as.arsc.flat                  | Bin 9192 -> 0 bytes
+ .../values-az_values-az.arsc.flat                  | Bin 6840 -> 0 bytes
+ .../values-b+sr+Latn_values-b+sr+Latn.arsc.flat    | Bin 7096 -> 0 bytes
+ .../values-be_values-be.arsc.flat                  | Bin 8156 -> 0 bytes
+ .../values-bg_values-bg.arsc.flat                  | Bin 8236 -> 0 bytes
+ .../values-bn_values-bn.arsc.flat                  | Bin 9328 -> 0 bytes
+ .../values-bs_values-bs.arsc.flat                  | Bin 6700 -> 0 bytes
+ .../values-ca_values-ca.arsc.flat                  | Bin 6796 -> 0 bytes
+ .../values-cs_values-cs.arsc.flat                  | Bin 6676 -> 0 bytes
+ .../values-da_values-da.arsc.flat                  | Bin 6444 -> 0 bytes
+ .../values-de_values-de.arsc.flat                  | Bin 6716 -> 0 bytes
+ .../values-el_values-el.arsc.flat                  | Bin 8432 -> 0 bytes
+ .../values-en-rAU_values-en-rAU.arsc.flat          | Bin 6628 -> 0 bytes
+ .../values-en-rCA_values-en-rCA.arsc.flat          | Bin 6616 -> 0 bytes
+ .../values-en-rGB_values-en-rGB.arsc.flat          | Bin 6628 -> 0 bytes
+ .../values-en-rIN_values-en-rIN.arsc.flat          | Bin 6628 -> 0 bytes
+ .../values-en-rXC_values-en-rXC.arsc.flat          | Bin 34420 -> 0 bytes
+ .../values-es-rUS_values-es-rUS.arsc.flat          | Bin 7060 -> 0 bytes
+ .../values-es_values-es.arsc.flat                  | Bin 6820 -> 0 bytes
+ .../values-et_values-et.arsc.flat                  | Bin 6568 -> 0 bytes
+ .../values-eu_values-eu.arsc.flat                  | Bin 6768 -> 0 bytes
+ .../values-fa_values-fa.arsc.flat                  | Bin 7560 -> 0 bytes
+ .../values-fi_values-fi.arsc.flat                  | Bin 6696 -> 0 bytes
+ .../values-fr-rCA_values-fr-rCA.arsc.flat          | Bin 7244 -> 0 bytes
+ .../values-fr_values-fr.arsc.flat                  | Bin 6824 -> 0 bytes
+ .../values-gl_values-gl.arsc.flat                  | Bin 6840 -> 0 bytes
+ .../values-gu_values-gu.arsc.flat                  | Bin 8884 -> 0 bytes
+ .../values-hi_values-hi.arsc.flat                  | Bin 9148 -> 0 bytes
+ .../values-hr_values-hr.arsc.flat                  | Bin 6660 -> 0 bytes
+ .../values-hu_values-hu.arsc.flat                  | Bin 6852 -> 0 bytes
+ .../values-hy_values-hy.arsc.flat                  | Bin 7928 -> 0 bytes
+ .../values-in_values-in.arsc.flat                  | Bin 6564 -> 0 bytes
+ .../values-is_values-is.arsc.flat                  | Bin 6568 -> 0 bytes
+ .../values-it_values-it.arsc.flat                  | Bin 6796 -> 0 bytes
+ .../values-iw_values-iw.arsc.flat                  | Bin 7292 -> 0 bytes
+ .../values-ja_values-ja.arsc.flat                  | Bin 7072 -> 0 bytes
+ .../values-ka_values-ka.arsc.flat                  | Bin 9312 -> 0 bytes
+ .../values-kk_values-kk.arsc.flat                  | Bin 7828 -> 0 bytes
+ .../values-km_values-km.arsc.flat                  | Bin 9396 -> 0 bytes
+ .../values-kn_values-kn.arsc.flat                  | Bin 9784 -> 0 bytes
+ .../values-ko_values-ko.arsc.flat                  | Bin 6620 -> 0 bytes
+ .../values-ky_values-ky.arsc.flat                  | Bin 8168 -> 0 bytes
+ .../values-lo_values-lo.arsc.flat                  | Bin 8772 -> 0 bytes
+ .../values-lt_values-lt.arsc.flat                  | Bin 6808 -> 0 bytes
+ .../values-lv_values-lv.arsc.flat                  | Bin 6864 -> 0 bytes
+ .../values-mk_values-mk.arsc.flat                  | Bin 8080 -> 0 bytes
+ .../values-ml_values-ml.arsc.flat                  | Bin 10024 -> 0 bytes
+ .../values-mn_values-mn.arsc.flat                  | Bin 7832 -> 0 bytes
+ .../values-mr_values-mr.arsc.flat                  | Bin 8988 -> 0 bytes
+ .../values-ms_values-ms.arsc.flat                  | Bin 6620 -> 0 bytes
+ .../values-my_values-my.arsc.flat                  | Bin 9924 -> 0 bytes
+ .../values-nb_values-nb.arsc.flat                  | Bin 6444 -> 0 bytes
+ .../values-ne_values-ne.arsc.flat                  | Bin 9772 -> 0 bytes
+ .../values-night-v8_values-night-v8.arsc.flat      | Bin 308 -> 0 bytes
+ .../values-nl_values-nl.arsc.flat                  | Bin 6580 -> 0 bytes
+ .../values-or_values-or.arsc.flat                  | Bin 9436 -> 0 bytes
+ .../values-pa_values-pa.arsc.flat                  | Bin 8696 -> 0 bytes
+ .../values-pl_values-pl.arsc.flat                  | Bin 6668 -> 0 bytes
+ .../values-pt-rBR_values-pt-rBR.arsc.flat          | Bin 6900 -> 0 bytes
+ .../values-pt-rPT_values-pt-rPT.arsc.flat          | Bin 7068 -> 0 bytes
+ .../values-pt_values-pt.arsc.flat                  | Bin 6624 -> 0 bytes
+ .../values-ro_values-ro.arsc.flat                  | Bin 6760 -> 0 bytes
+ .../values-ru_values-ru.arsc.flat                  | Bin 7892 -> 0 bytes
+ .../values-si_values-si.arsc.flat                  | Bin 8832 -> 0 bytes
+ .../values-sk_values-sk.arsc.flat                  | Bin 6660 -> 0 bytes
+ .../values-sl_values-sl.arsc.flat                  | Bin 6636 -> 0 bytes
+ .../values-sq_values-sq.arsc.flat                  | Bin 6788 -> 0 bytes
+ .../values-sr_values-sr.arsc.flat                  | Bin 7868 -> 0 bytes
+ .../values-sv_values-sv.arsc.flat                  | Bin 6632 -> 0 bytes
+ .../values-sw_values-sw.arsc.flat                  | Bin 6616 -> 0 bytes
+ .../values-ta_values-ta.arsc.flat                  | Bin 10472 -> 0 bytes
+ .../values-te_values-te.arsc.flat                  | Bin 9980 -> 0 bytes
+ .../values-th_values-th.arsc.flat                  | Bin 8796 -> 0 bytes
+ .../values-tl_values-tl.arsc.flat                  | Bin 6784 -> 0 bytes
+ .../values-tr_values-tr.arsc.flat                  | Bin 6592 -> 0 bytes
+ .../values-uk_values-uk.arsc.flat                  | Bin 8036 -> 0 bytes
+ .../values-ur_values-ur.arsc.flat                  | Bin 7860 -> 0 bytes
+ .../values-uz_values-uz.arsc.flat                  | Bin 6632 -> 0 bytes
+ .../values-v21_values-v21.arsc.flat                | Bin 1524 -> 0 bytes
+ .../values-v23_values-v23.arsc.flat                | Bin 320 -> 0 bytes
+ .../values-v27_values-v27.arsc.flat                | Bin 756 -> 0 bytes
+ .../values-v29_values-v29.arsc.flat                | Bin 608 -> 0 bytes
+ .../values-v30_values-v30.arsc.flat                | Bin 264 -> 0 bytes
+ .../values-v31_values-v31.arsc.flat                | Bin 836 -> 0 bytes
+ .../values-vi_values-vi.arsc.flat                  | Bin 7016 -> 0 bytes
+ .../values-watch-v20_values-watch-v20.arsc.flat    | Bin 804 -> 0 bytes
+ .../values-zh-rCN_values-zh-rCN.arsc.flat          | Bin 6668 -> 0 bytes
+ .../values-zh-rHK_values-zh-rHK.arsc.flat          | Bin 6596 -> 0 bytes
+ .../values-zh-rTW_values-zh-rTW.arsc.flat          | Bin 6664 -> 0 bytes
+ .../values-zu_values-zu.arsc.flat                  | Bin 6700 -> 0 bytes
+ .../mergeDebugResources/values_values.arsc.flat    | Bin 32564 -> 0 bytes
+ .../mergeDebugResources/xml_backup_rules.xml.flat  | Bin 228 -> 0 bytes
+ .../xml_data_extraction_rules.xml.flat             | Bin 376 -> 0 bytes
+ .../out/multi-v2/values-am.json                    |  82 +--
+ .../out/multi-v2/values-bg.json                    |  74 +--
+ .../out/multi-v2/values-da.json                    |  82 +--
+ .../out/multi-v2/values-en-rIN.json                |  62 +-
+ .../out/multi-v2/values-es.json                    |  50 +-
+ .../out/multi-v2/values-et.json                    |  94 +--
+ .../out/multi-v2/values-is.json                    |  82 +--
+ .../out/multi-v2/values-ky.json                    |  74 +--
+ .../out/multi-v2/values-lt.json                    |  62 +-
+ .../out/multi-v2/values-night-v8.json              |  17 +-
+ .../out/multi-v2/values-pa.json                    |  42 +-
+ .../out/multi-v2/values-ru.json                    |  94 +--
+ .../out/multi-v2/values-sk.json                    |  82 +--
+ .../out/multi-v2/values-sl.json                    |  92 ++-
+ .../out/multi-v2/values-v31.json                   |   2 +-
+ .../debug/mapDebugSourceSetPaths/file-map.txt      | 154 ++---
+ app/src/main/AndroidManifest.xml                   |   3 +
+ .../main/java/com/raite/studyroom/MainActivity.kt  |  39 ++
+ .../main/java/com/raite/studyroom/StudyRoomApp.kt  |  17 +
+ .../raite/studyroom/data/local/dao/OutboxDao.kt    |   4 +
+ .../com/raite/studyroom/data/local/dao/QuizDao.kt  |  35 +
+ .../raite/studyroom/data/local/dao/ResourceDao.kt  |  18 +
+ .../com/raite/studyroom/data/local/dao/RoomDao.kt  |  39 ++
+ .../studyroom/data/local/dao/StudyMaterialDao.kt   |  28 +
+ .../com/raite/studyroom/data/local/dao/TaskDao.kt  |   7 +
+ .../studyroom/data/remote/SupabaseContentSource.kt |  39 ++
+ .../studyroom/data/remote/SupabaseDataSource.kt    |  64 ++
+ .../studyroom/data/remote/ai/AiProxyClient.kt      |  59 +-
+ .../studyroom/data/repository/AuthRepository.kt    |  74 ++-
+ .../studyroom/data/repository/QuizRepository.kt    |  37 +-
+ .../data/repository/ResourceRepository.kt          |  55 +-
+ .../studyroom/data/repository/RoomRepository.kt    | 151 ++++-
+ .../data/repository/SettingsRepository.kt          |  98 ++-
+ .../data/repository/StudyMaterialRepository.kt     |  83 ++-
+ .../studyroom/data/repository/TaskRepository.kt    |   8 +-
+ .../com/raite/studyroom/data/sync/SyncScheduler.kt |  15 +-
+ .../com/raite/studyroom/data/sync/SyncWorker.kt    |  83 ++-
+ .../java/com/raite/studyroom/di/NetworkModule.kt   |  39 +-
+ .../java/com/raite/studyroom/ui/MainViewModel.kt   |  10 +-
+ .../com/raite/studyroom/ui/components/Common.kt    |   2 +-
+ .../raite/studyroom/ui/components/MainScaffold.kt  |  81 ++-
+ .../studyroom/ui/components/ReviewerComponents.kt  |  87 ++-
+ .../com/raite/studyroom/ui/components/RoomCard.kt  |  62 +-
+ .../com/raite/studyroom/ui/components/TaskRow.kt   |  60 +-
+ .../raite/studyroom/ui/navigation/AppNavHost.kt    | 190 +++++-
+ .../com/raite/studyroom/ui/navigation/Routes.kt    |  16 +-
+ .../raite/studyroom/ui/screens/auth/AuthScreen.kt  |  83 ++-
+ .../studyroom/ui/screens/auth/AuthViewModel.kt     | 179 +++++-
+ .../ui/screens/dashboard/DashboardScreen.kt        | 107 +++-
+ .../ui/screens/dashboard/DashboardViewModel.kt     |  43 +-
+ .../studyroom/ui/screens/intro/IntroScreen.kt      |  29 +-
+ .../studyroom/ui/screens/room/QuizCreateDialog.kt  | 152 ++++-
+ .../ui/screens/room/QuizReviewViewModel.kt         |  20 +-
+ .../raite/studyroom/ui/screens/room/QuizzesTab.kt  |   3 +
+ .../raite/studyroom/ui/screens/room/RoomScreen.kt  | 708 ++++++++++++++++++---
+ .../raite/studyroom/ui/screens/room/RoomTabs.kt    | 135 +++-
+ .../studyroom/ui/screens/room/RoomViewModel.kt     | 118 ++++
+ .../studyroom/ui/screens/rooms/CreateRoomScreen.kt |  41 +-
+ .../studyroom/ui/screens/rooms/RoomsScreen.kt      |  60 +-
+ .../studyroom/ui/screens/rooms/RoomsViewModel.kt   |  27 +-
+ .../ui/screens/settings/SettingsScreen.kt          | 209 ++++--
+ .../ui/screens/settings/SettingsViewModel.kt       | 129 ++++
+ .../studyroom/ui/screens/tasks/TasksScreen.kt      |  89 ++-
+ .../studyroom/ui/screens/tasks/TasksViewModel.kt   |  90 ++-
+ .../java/com/raite/studyroom/ui/theme/Color.kt     |  83 ++-
+ .../java/com/raite/studyroom/ui/theme/Shape.kt     |  15 +-
+ .../java/com/raite/studyroom/ui/theme/Theme.kt     |  60 +-
+ app/src/main/java/com/raite/studyroom/util/Time.kt |  35 +
+ .../main/res/drawable/ic_launcher_foreground.xml   |   6 +-
+ app/src/main/res/values/colors.xml                 |   8 +-
+ app/src/main/res/values/strings.xml                |  15 +-
+ supabase/policies.sql                              |  11 +-
+ 189 files changed, 4587 insertions(+), 1107 deletions(-)

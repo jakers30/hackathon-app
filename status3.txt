@@ -1,0 +1,27 @@
+﻿=== adb reverse list ===
+UsbFfs tcp:8080 tcp:8080
+
+
+=== launcher scripts still running ===
+
+
+ProcessId   : 48856
+CommandLine : "C:\WINDOWS\System32\WindowsPowerShell\v1.0\p
+              owershell.exe" -NoProfile -ExecutionPolicy 
+              Bypass -File C:\Users\PREDATOR\OneDrive\Deskt
+              op\Hackathon\_runapp.ps1 
+
+
+
+
+=== port 8080 listener ===
+
+LocalAddress OwningProcess
+------------ -------------
+::                   34964
+
+
+
+=== phone reaches proxy ===
+NO_wget
+

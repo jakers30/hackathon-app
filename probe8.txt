@@ -1,0 +1,222 @@
+﻿pidof:
+8938
+focus:
+
+  mCurrentFocus=Window{79ef315 u0 
+com.raite.studyroom/com.raite.studyroom.MainActivity}
+
+
+log:
+
+I/SurfaceFlinger( 1619): [SF client] 
+NEW(0xb400007c94bf0a00) for (8938:com.raite.studyroom)
+D/WindowManager( 8938): Add to mViews: 
+com.android.internal.policy.DecorView{b5b714a V.E...... 
+R.....I. 0,0-0,0 alpha=1.0 viewInfo = }[MainActivity],pkg= 
+com.raite.studyroom
+D/WindowManager( 1968): 
+NFW_findFocusedWindowIfNeeded:Window{7ba3b8f u0 
+com.raite.studyroom/com.raite.studyroom.MainActivity} 
+mCurrentFocus:Window{79ef315 u0 
+com.raite.studyroom/com.raite.studyroom.MainActivity}
+V/WindowManager( 1968): Changing focus from Window{79ef315 
+u0 com.raite.studyroom/com.raite.studyroom.MainActivity} 
+to Window{7ba3b8f u0 com.raite.studyroom/com.raite.studyroo
+m.MainActivity},diplayid=0
+I/WindowManager( 1968): addWindow: New client 
+android.os.BinderProxy@9f46aee : window=Window{7ba3b8f u0 
+com.raite.studyroom/com.raite.studyroom.MainActivity}
+D/CoreBackPreview( 1968): Window{7ba3b8f u0 
+com.raite.studyroom/com.raite.studyroom.MainActivity}: 
+Setting back callback OnBackInvokedCallbackInfo{mCallback=a
+ndroid.window.IOnBackInvokedCallback$Stub$Proxy@c64a3a1, 
+mPriority=0, mIsAnimationCallback=false}
+V/WindowManager( 1968): Relayout Window{7ba3b8f u0 
+com.raite.studyroom/com.raite.studyroom.MainActivity}: 
+viewVisibility=0, oldvis=0, req=1080x1584, 
+vsysui=LIGHT_STATUS_BAR, x=0, y=0
+I/WindowManager( 1968): Window{7ba3b8f u0 
+com.raite.studyroom/com.raite.studyroom.MainActivity} 
+state from NO_SURFACE to DRAW_PENDING; reason: 
+resetDrawState
+D/OplusLayer( 1619): setProcInfo (100258,com.raite.studyroo
+m/com.raite.studyroom.MainActivity#100258,com.raite.studyro
+om,0xB2470234)
+D/WindowManager( 1968): 
+NFW_findFocusedWindowIfNeeded:Window{7ba3b8f u0 
+com.raite.studyroom/com.raite.studyroom.MainActivity} 
+mCurrentFocus:Window{7ba3b8f u0 
+com.raite.studyroom/com.raite.studyroom.MainActivity}
+D/SurfaceFlinger( 1619): updateWinowInfo=1, 
+setFocusedWindow timestamp=500500440419854, 
+windowName=7ba3b8f 
+com.raite.studyroom/com.raite.studyroom.MainActivity
+I/InputDispatcher( 1968): NFW_setFocusedWindow, 7ba3b8f 
+com.raite.studyroom/com.raite.studyroom.MainActivity on 
+display 0, same as the previous:0
+I/SurfaceControl( 8938):  setExtendedRangeBrightness sc=Sur
+face(name=com.raite.studyroom/com.raite.studyroom.MainActiv
+ity)/@0x5179d47,currentBufferRatio=1.0,desiredRatio=1.0
+I/WindowManager( 1968): Window{7ba3b8f u0 
+com.raite.studyroom/com.raite.studyroom.MainActivity} 
+state from DRAW_PENDING to COMMIT_DRAW_PENDING; reason: 
+finishDrawingLocked
+I/WindowManager( 1968): Window{7ba3b8f u0 
+com.raite.studyroom/com.raite.studyroom.MainActivity} 
+state from COMMIT_DRAW_PENDING to READY_TO_SHOW; reason: 
+commitFinishDrawingLocked
+D/ActivityTaskManager( 1968): Clearing startingData for 
+activity=ActivityRecord{2690bd3 u0 
+com.raite.studyroom/.MainActivity t4117} 
+mStartingData=null mStartingSurface=null
+I/WindowManager( 1968): Window{7ba3b8f u0 
+com.raite.studyroom/com.raite.studyroom.MainActivity} 
+state from READY_TO_SHOW to HAS_DRAWN; reason: 
+performShowLocked
+D/SurfaceAnimationRunner( 1968): 
+onAnimationStart:Surface(name=Surface(name=7ba3b8f com.rait
+e.studyroom/com.raite.studyroom.MainActivity)/@0x3ae9c6 - 
+animation-leash of window_animation)/@0x1740d87
+I/SurfaceControl( 8938):  setExtendedRangeBrightness sc=Sur
+face(name=com.raite.studyroom/com.raite.studyroom.MainActiv
+ity)/@0x5179d47,currentBufferRatio=1.0,desiredRatio=1.0
+V/WindowManager( 1968): Relayout Window{7ba3b8f u0 
+com.raite.studyroom/com.raite.studyroom.MainActivity}: 
+viewVisibility=0, oldvis=0, req=1080x1584, 
+vsysui=LIGHT_STATUS_BAR, x=0, y=0
+I/SurfaceControl( 8938):  setExtendedRangeBrightness sc=Sur
+face(name=com.raite.studyroom/com.raite.studyroom.MainActiv
+ity)/@0x5179d47,currentBufferRatio=1.0,desiredRatio=1.0
+V/WindowManager( 1968): Relayout Window{7ba3b8f u0 
+com.raite.studyroom/com.raite.studyroom.MainActivity}: 
+viewVisibility=0, oldvis=0, req=1080x1584, 
+vsysui=LIGHT_STATUS_BAR, x=0, y=0
+I/InputDispatcher( 1968): updateFocusedWindow, 7ba3b8f 
+com.raite.studyroom/com.raite.studyroom.MainActivity on 
+display 0, reason: Window became focusable. Previous 
+reason: NOT_VISIBLE, result:   FocusedWindows:
+I/InputDispatcher( 1968):     displayId=0, name='7ba3b8f 
+com.raite.studyroom/com.raite.studyroom.MainActivity'
+D/InputMethodManagerService( 1968): isSecurity: 
+attribute.packageName = com.raite.studyroom mCurMethodId = 
+com.google.android.inputmethod.latin/com.android.inputmetho
+d.latin.LatinIME isSecurity = false ( enable = false 
+needShow = false inBlackList = false isExist = true )
+I/ImeTracker( 1968): com.raite.studyroom:26821d51: 
+onRequestHide at ORIGIN_SERVER reason 
+HIDE_UNSPECIFIED_WINDOW fromUser false
+I/ImeTracker( 1968): com.raite.studyroom:26821d51: 
+onCancelled at PHASE_SERVER_SHOULD_HIDE
+I/GoogleInputMethodService( 9284): 
+GoogleInputMethodService.onStartInput():1532 onStartInput(E
+ditorInfo{EditorInfo{packageName=com.raite.studyroom, 
+inputType=0, inputTypeString=NULL, enableLearning=false, 
+autoCorrection=false, autoComplete=false, imeOptions=0, 
+privateImeOptions=null, actionName=UNSPECIFIED, 
+actionLabel=null, initialSelStart=-1, initialSelEnd=-1, 
+initialCapsMode=0, label=null, fieldId=0, fieldName=null, 
+extras=Bundle[{com.oplus.im.WINDOW_MODE=1, 
+com.oplus.im.SCENES=0}], hintText=null, hintLocales=[]}}, 
+false)
+W/PackageConfigPersister( 1968): App-specific 
+configuration not found for packageName: 
+com.raite.studyroom and userId: 0
+V/WindowManager( 1968): Relayout Window{7ba3b8f u0 
+com.raite.studyroom/com.raite.studyroom.MainActivity}: 
+viewVisibility=0, oldvis=0, req=1080x1584, 
+vsysui=LIGHT_STATUS_BAR, x=0, y=0
+D/SurfaceAnimationRunner( 1968): 
+onAnimationEnd:Surface(name=Surface(name=7ba3b8f com.raite.
+studyroom/com.raite.studyroom.MainActivity)/@0x3ae9c6 - 
+animation-leash of window_animation)/@0x1740d87
+D/OplusScrollToTopManager( 8938): com.raite.studyroom/com.r
+aite.studyroom.MainActivity,window dying
+D/OplusScrollToTopManager( 8938): com.raite.studyroom/com.r
+aite.studyroom.MainActivity,unregisterSystemUIBroadcastRece
+iver 
+D/OplusScrollToTopManager( 8938): 
+com.raite.studyroom/com.raite.studyroom.MainActivity, 
+unregisterSystemUIBroadcastReceiver failed 
+java.lang.IllegalArgumentException: Receiver not 
+registered: android.view.OplusScrollToTopManager$2@78ca1ce
+D/CoreBackPreview( 1968): Window{7ba3b8f u0 
+com.raite.studyroom/com.raite.studyroom.MainActivity}: 
+Setting back callback null
+I/InputDispatcher( 1968): channel '7ba3b8f 
+com.raite.studyroom/com.raite.studyroom.MainActivity 
+(server)'~ abortBrokenDispatchCycleLocked - notify=false
+W/InputManager-JNI( 1968): Input channel object '7ba3b8f 
+com.raite.studyroom/com.raite.studyroom.MainActivity 
+(client)' was disposed without first being removed with 
+the input manager!
+D/WindowManager( 1968): 
+NFW_findFocusedWindowIfNeeded:Window{79ef315 u0 
+com.raite.studyroom/com.raite.studyroom.MainActivity} 
+mCurrentFocus:Window{7ba3b8f u0 
+com.raite.studyroom/com.raite.studyroom.MainActivity 
+EXITING}
+V/WindowManager( 1968): Changing focus from Window{7ba3b8f 
+u0 com.raite.studyroom/com.raite.studyroom.MainActivity 
+EXITING} to Window{79ef315 u0 com.raite.studyroom/com.raite
+.studyroom.MainActivity},diplayid=0
+D/SurfaceAnimationRunner( 1968): 
+onAnimationStart:Surface(name=Surface(name=7ba3b8f com.rait
+e.studyroom/com.raite.studyroom.MainActivity)/@0x3ae9c6 - 
+animation-leash of window_animation)/@0x7df12e4
+D/SurfaceFlinger( 1619): updateWinowInfo=1, 
+setFocusedWindow timestamp=500501224731156, 
+windowName=79ef315 
+com.raite.studyroom/com.raite.studyroom.MainActivity
+I/InputDispatcher( 1968): NFW_setFocusedWindow, 79ef315 
+com.raite.studyroom/com.raite.studyroom.MainActivity on 
+display 0, same as the previous:0
+I/InputDispatcher( 1968): updateFocusedWindow, 79ef315 
+com.raite.studyroom/com.raite.studyroom.MainActivity on 
+display 0, reason: setFocusedWindow, result:   
+FocusedWindows:
+I/InputDispatcher( 1968):     displayId=0, name='79ef315 
+com.raite.studyroom/com.raite.studyroom.MainActivity'
+D/InputMethodManagerService( 1968): isSecurity: 
+attribute.packageName = com.raite.studyroom mCurMethodId = 
+com.google.android.inputmethod.latin/com.android.inputmetho
+d.latin.LatinIME isSecurity = false ( enable = false 
+needShow = false inBlackList = false isExist = true )
+I/ImeTracker( 1968): com.raite.studyroom:1570b008: 
+onRequestHide at ORIGIN_SERVER reason 
+HIDE_UNSPECIFIED_WINDOW fromUser false
+I/ImeTracker( 1968): com.raite.studyroom:1570b008: 
+onCancelled at PHASE_SERVER_SHOULD_HIDE
+I/GoogleInputMethodService( 9284): 
+GoogleInputMethodService.onStartInput():1532 onStartInput(E
+ditorInfo{EditorInfo{packageName=com.raite.studyroom, 
+inputType=0, inputTypeString=NULL, enableLearning=false, 
+autoCorrection=false, autoComplete=false, imeOptions=0, 
+privateImeOptions=null, actionName=UNSPECIFIED, 
+actionLabel=null, initialSelStart=-1, initialSelEnd=-1, 
+initialCapsMode=0, label=null, fieldId=0, fieldName=null, 
+extras=Bundle[{com.oplus.im.WINDOW_MODE=1, 
+com.oplus.im.SCENES=0}], hintText=null, hintLocales=[]}}, 
+false)
+W/PackageConfigPersister( 1968): App-specific 
+configuration not found for packageName: 
+com.raite.studyroom and userId: 0
+D/SurfaceAnimationRunner( 1968): 
+onAnimationEnd:Surface(name=Surface(name=7ba3b8f com.raite.
+studyroom/com.raite.studyroom.MainActivity)/@0x3ae9c6 - 
+animation-leash of window_animation)/@0x7df12e4
+I/WindowManager( 1968): Window{7ba3b8f u0 
+com.raite.studyroom/com.raite.studyroom.MainActivity 
+EXITING} state from HAS_DRAWN to NO_SURFACE; reason: 
+destroySurface
+D/OplusScrollToTopManager( 8938): 
+com.raite.studyroom/com.raite.studyroom.MainActivity,This 
+com.android.internal.policy.DecorView{43e080e V.E...... 
+R....... 0,0-1080,2400 aid=0 alpha=1.0 viewInfo = 
+}[MainActivity] change focus to true
+I/adbd    ( 4967): adbd service requested 
+'shell,v2,raw:pidof com.raite.studyroom'
+
+
+shot:
+126568
+ENDDONE

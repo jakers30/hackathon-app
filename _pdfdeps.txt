@@ -1,0 +1,16 @@
+cached pdf-ish jars:
+C:\Users\PREDATOR\.gradle\caches\modules-2\files-2.1\org.apache.poi
+sources of Part/Inline in proxy:
+AiProvider.kt
+Application.kt
+ClaudeProvider.kt
+Config.kt
+DeepSeekProvider.kt
+FileText.kt
+GeminiProvider.kt
+Models.kt
+Prompts.kt
+Routes.kt
+Routes2.kt
+SupabaseApi.kt
+END

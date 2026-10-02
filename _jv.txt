@@ -1,0 +1,21 @@
+﻿exists=True
+java.exe : openjdk version "21.0.12.1" 2026-08-18 LTS
+At line:1 char:185
++ ... Out-File $out -Encoding utf8; (& "$jdk\bin\java.exe" -version) 
+2>&1 | ...
++                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (openjdk version... 2026- 
+   08-18 LTS:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+OpenJDK Runtime Environment Temurin-21.0.12.1+1 (build 
+21.0.12.1+1-LTS)
+OpenJDK 64-Bit Server VM Temurin-21.0.12.1+1 (build 21.0.12.1+1-LTS, 
+mixed mode, sharing)
+--- licenses ---
+android-sdk-license
+--- platform 35 ---
+False
+--- gradle 8.9 bin ---
+True
+DONE

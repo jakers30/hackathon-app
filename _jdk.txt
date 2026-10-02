@@ -1,0 +1,18 @@
+﻿--- studio jbr ---
+bin
+jbr
+lib
+license
+modules
+plugins
+build.txt
+LICENSE.txt
+NOTICE.txt
+product-info.json
+uninstall.exe
+True
+--- all jdk-like dirs ---
+C:\Program Files\Java
+--- wrapper dists bin ---
+C:\Users\PREDATOR\.gradle\wrapper\dists\gradle-8.9-bin\90cnw93cvbtalezasaz0blq0a\gradle-8.9\bin\gradle.bat
+--- DONE ---

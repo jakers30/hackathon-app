@@ -1,0 +1,17 @@
+ai verify 02:19:44
+supabase = https://nxgybecdhkpfspnfhnjn.supabase.co | anon key present = True
+provider = deepseek / deepseek-flash
+login ok as demo@studyroom.app (token len 792)
+room_members rows: 2
+visible room: 96794146-47cf-47c8-8bad-57977d645137 | hackathon | code QBMVTC
+visible room: dd6fd451-b1d0-4bab-91a9-16251125f964 | nya | code 948JKB
+using roomId = 96794146-47cf-47c8-8bad-57977d645137
+proxy log mark = 1849 bytes
+POST /ai/roadmap -> 5.4s, items = 4
+first topic  : Lesson 1: Science, Technology, and Society (STS 101)
+description  : Foundational concepts defining science, technology, and STS studies, including their roles and impacts on society.
+subtopics    : Definition and etymology of science | Definition and etymology of technology | Definition of STS studies and its focus on human values, science, and technology | How social, political, and cultural values affect scientific research and technological innovation
+--- new proxy log lines (resource extraction + request) ---
+log| 02:19:48.241 [eventLoopGroupProxy-4-5] INFO  com.raite.aiproxy.SupabaseApi - resource 'sts-lessons-1-4-reviewer.pdf' (application/pdf) -> 17515 bytes, 11809 chars of text
+log| 02:19:50.761 [eventLoopGroupProxy-4-5] INFO  io.ktor.server.Application - 200 OK: POST - /ai/roadmap in 5391ms
+DONE

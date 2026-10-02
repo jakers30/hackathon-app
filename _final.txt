@@ -1,0 +1,8 @@
+02:23:10
+--- installed app on device ---
+versionName=1.0
+lastUpdateTime=2026-10-02 02:20:54
+firstInstallTime=2026-10-01 18:50:13
+--- apk on disk ---
+10/2/2026 2:20:42 AM
+END

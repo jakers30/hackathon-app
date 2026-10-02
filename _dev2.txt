@@ -1,0 +1,25 @@
+﻿List of devices attached
+a61d9c1b               unauthorized transport_id:1
+
+--- build cache (app build output) ---
+C:\Users\PREDATOR\OneDrive\Desktop\Hackathon\hackathon-app\app\build\outputs\apk\debug
+C:\Users\PREDATOR\OneDrive\Desktop\Hackathon\hackathon-app\app\build\outputs\apk\debug\app-debug.apk
+C:\Users\PREDATOR\OneDrive\Desktop\Hackathon\hackathon-app\app\build\outputs\apk\debug\output-metadata.json
+--- app build dir? ---
+True
+--- git status ---
+ M app/build/intermediates/classes/debug/transformDebugClassesWithAsm/dirs/com/raite/studyroom/ui/screens/dashboard/DashboardScreenKt$DashboardScreen$2$invoke$lambda$8$lambda$7$$inlined$items$default$1.class
+ M app/build/intermediates/classes/debug/transformDebugClassesWithAsm/dirs/com/raite/studyroom/ui/screens/dashboard/DashboardScreenKt$DashboardScreen$2$invoke$lambda$8$lambda$7$$inlined$items$default$2.class
+ M app/build/intermediates/classes/debug/transformDebugClassesWithAsm/dirs/com/raite/studyroom/ui/screens/dashboard/DashboardScreenKt$DashboardScreen$2$invoke$lambda$8$lambda$7$$inlined$items$default$3.class
+ M app/build/intermediates/classes/debug/transformDebugClassesWithAsm/dirs/com/raite/studyroom/ui/screens/dashboard/DashboardScreenKt$DashboardScreen$2$invoke$lambda$8$lambda$7$$inlined$items$default$4.class
+ M app/build/intermediates/classes/debug/transformDebugClassesWithAsm/dirs/com/raite/studyroom/ui/screens/dashboard/DashboardScreenKt$DashboardScreen$2$invoke$lambda$8$lambda$7$$inlined$items$default$5.class
+ M app/build/intermediates/classes/debug/transformDebugClassesWithAsm/dirs/com/raite/studyroom/ui/screens/dashboard/DashboardScreenKt$DashboardScreen$2$invoke$lambda$8$lambda$7$$inlined$items$default$6.class
+ M app/build/intermediates/classes/debug/transformDebugClassesWithAsm/dirs/com/raite/studyroom/ui/screens/dashboard/DashboardScreenKt$DashboardScreen$2$invoke$lambda$8$lambda$7$$inlined$items$default$7.class
+ M app/build/intermediates/classes/debug/transformDebugClassesWithAsm/dirs/com/raite/studyroom/ui/screens/dashboard/DashboardScreenKt$DashboardScreen$2$invoke$lambda$8$lambda$7$$inlined$items$default$8.class
+ M app/build/intermediates/classes/debug/transformDebugClassesWithAsm/dirs/com/raite/studyroom/ui/screens/room/QuizReviewScreenKt$QuizReviewScreen$3$invoke$lambda$2$lambda$1$$inlined$itemsIndexed$default$1.class
+ M app/build/intermediates/classes/debug/transformDebugClassesWithAsm/dirs/com/raite/studyroom/ui/screens/room/QuizReviewScreenKt$QuizReviewScreen$3$invoke$lambda$2$lambda$1$$inlined$itemsIndexed$default$2.class
+ M app/build/intermediates/classes/debug/transformDebugClassesWithAsm/dirs/com/raite/studyroom/ui/screens/room/QuizReviewScreenKt$QuizReviewScreen$3$invoke$lambda$2$lambda$1$$inlined$itemsIndexed$default$3.class
+ M app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/raite/studyroom/ui/screens/room/QuizReviewScreenKt$QuizReviewScreen$3$invoke$lambda$2$lambda$1$$inlined$itemsIndexed$default$1.dex
+ M app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/raite/studyroom/ui/screens/room/QuizReviewScreenKt$QuizReviewScreen$3$invoke$lambda$2$lambda$1$$inlined$itemsIndexed$default$2.dex
+ M app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/raite/studyroom/ui/screens/room/QuizReviewScreenKt$QuizReviewScreen$3$invoke$lambda$2$lambda$1$$inlined$itemsIndexed$default$3.dex
+--- DONE ---

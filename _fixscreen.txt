@@ -1,0 +1,34 @@
+fix screen 02:22:13
+--- collapse status bar ---
+--- focused window ---
+mCurrentFocus=Window{711a933 u0 NotificationShade}
+nodes = 146
+--- text nodes ---
+    'TNT' [51,17][157,107] clickable=false | parent clickable=false bounds=[51,17][481,107]
+    'Messenger' [156,706][346,748] clickable=false | parent clickable=false bounds=[48,649][1032,805]
+    '•' [358,706][370,748] clickable=false | parent clickable=false bounds=[48,649][1032,805]
+    'Just now' [382,706][530,748] clickable=false | parent clickable=false bounds=[48,649][1032,805]
+    'Chat heads active' [96,775][984,824] clickable=false | parent clickable=false bounds=[96,775][984,890]
+    '2 conversations' [96,833][984,890] clickable=false | parent clickable=false bounds=[96,775][984,890]
+    'Notisave' [156,1019][311,1061] clickable=false | parent clickable=false bounds=[48,962][1032,1118]
+    '•' [323,1019][335,1061] clickable=false | parent clickable=false bounds=[48,962][1032,1118]
+    'Just now' [347,1019][495,1061] clickable=false | parent clickable=false bounds=[48,962][1032,1118]
+    'AM 2:20' [837,1100][948,1141] clickable=false | parent clickable=false bounds=[96,1100][960,1148]
+    '2121507 notifications saved.' [96,1172][561,1221] clickable=false | parent clickable=false bounds=[96,1172][984,1221]
+    'System UI' [156,1362][306,1404] clickable=false | parent clickable=false bounds=[48,1305][840,1461]
+    '•' [318,1362][330,1404] clickable=false | parent clickable=false bounds=[48,1305][840,1461]
+    'Charging this device via USB' [342,1362][639,1404] clickable=false | parent clickable=false bounds=[48,1305][840,1461]
+    '•' [651,1362][663,1404] clickable=false | parent clickable=false bounds=[48,1305][840,1461]
+    'Yesterday' [675,1362][834,1404] clickable=false | parent clickable=false bounds=[48,1305][840,1461]
+    'System UI' [156,1542][306,1584] clickable=false | parent clickable=false bounds=[48,1485][840,1641]
+    '•' [318,1542][330,1584] clickable=false | parent clickable=false bounds=[48,1485][840,1641]
+    'USB debugging enabled' [342,1542][639,1584] clickable=false | parent clickable=false bounds=[48,1485][840,1641]
+    '•' [651,1542][663,1584] clickable=false | parent clickable=false bounds=[48,1485][840,1641]
+    'Yesterday' [675,1542][834,1584] clickable=false | parent clickable=false bounds=[48,1485][840,1641]
+    '0' [201,306][358,597] clickable=false | parent clickable=false bounds=[201,306][504,597]
+    '2' [358,306][504,597] clickable=false | parent clickable=false bounds=[201,306][504,597]
+    ':' [504,306][576,597] clickable=false | parent clickable=false bounds=[201,306][879,597]
+    '20' [576,306][879,597] clickable=false | parent clickable=false bounds=[201,306][879,597]
+    'Fri, Oct 2' [421,276][659,357] clickable=false | parent clickable=false bounds=[72,276][1008,597]
+text nodes total = 26
+DONE

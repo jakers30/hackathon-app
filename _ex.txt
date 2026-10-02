@@ -1,0 +1,4 @@
+﻿doneMarker=True
+jdk-21.0.12.1+1
+openjdk-25.0.2
+DONE

@@ -1,0 +1,40 @@
+bring app 02:21:45
+start| Starting: Intent { cmp=com.raite.studyroom/.MainActivity }
+start| Warning: Activity not started, intent has been delivered to currently running top-most instance.
+start| Status: ok
+start| LaunchState: UNKNOWN (0)
+start| Activity: com.raite.studyroom/.MainActivity
+start| TotalTime: 0
+start| WaitTime: 23
+start| Complete
+--- focused window ---
+mCurrentFocus=Window{711a933 u0 NotificationShade}
+nodes = 146
+--- nodes with text ---
+    'TNT' android.widget.TextView bounds=[51,17][157,107] clickable=false | parent clickable=false bounds=[51,17][481,107]
+    'Messenger' android.widget.TextView bounds=[156,706][346,748] clickable=false | parent clickable=false bounds=[48,649][1032,805]
+    '•' android.widget.TextView bounds=[358,706][370,748] clickable=false | parent clickable=false bounds=[48,649][1032,805]
+    'Just now' android.widget.TextView bounds=[382,706][530,748] clickable=false | parent clickable=false bounds=[48,649][1032,805]
+    'Chat heads active' android.widget.TextView bounds=[96,775][984,824] clickable=false | parent clickable=false bounds=[96,775][984,890]
+    '2 conversations' android.widget.TextView bounds=[96,833][984,890] clickable=false | parent clickable=false bounds=[96,775][984,890]
+    'Notisave' android.widget.TextView bounds=[156,1019][311,1061] clickable=false | parent clickable=false bounds=[48,962][1032,1118]
+    '•' android.widget.TextView bounds=[323,1019][335,1061] clickable=false | parent clickable=false bounds=[48,962][1032,1118]
+    'Just now' android.widget.TextView bounds=[347,1019][495,1061] clickable=false | parent clickable=false bounds=[48,962][1032,1118]
+    'AM 2:20' android.widget.TextView bounds=[837,1100][948,1141] clickable=false | parent clickable=false bounds=[96,1100][960,1148]
+    '2121507 notifications saved.' android.widget.TextView bounds=[96,1172][561,1221] clickable=false | parent clickable=false bounds=[96,1172][984,1221]
+    'System UI' android.widget.TextView bounds=[156,1362][306,1404] clickable=false | parent clickable=false bounds=[48,1305][840,1461]
+    '•' android.widget.TextView bounds=[318,1362][330,1404] clickable=false | parent clickable=false bounds=[48,1305][840,1461]
+    'Charging this device via USB' android.widget.TextView bounds=[342,1362][639,1404] clickable=false | parent clickable=false bounds=[48,1305][840,1461]
+    '•' android.widget.TextView bounds=[651,1362][663,1404] clickable=false | parent clickable=false bounds=[48,1305][840,1461]
+    'Yesterday' android.widget.TextView bounds=[675,1362][834,1404] clickable=false | parent clickable=false bounds=[48,1305][840,1461]
+    'System UI' android.widget.TextView bounds=[156,1542][306,1584] clickable=false | parent clickable=false bounds=[48,1485][840,1641]
+    '•' android.widget.TextView bounds=[318,1542][330,1584] clickable=false | parent clickable=false bounds=[48,1485][840,1641]
+    'USB debugging enabled' android.widget.TextView bounds=[342,1542][639,1584] clickable=false | parent clickable=false bounds=[48,1485][840,1641]
+    '•' android.widget.TextView bounds=[651,1542][663,1584] clickable=false | parent clickable=false bounds=[48,1485][840,1641]
+    'Yesterday' android.widget.TextView bounds=[675,1542][834,1584] clickable=false | parent clickable=false bounds=[48,1485][840,1641]
+    '0' android.widget.TextView bounds=[201,306][358,597] clickable=false | parent clickable=false bounds=[201,306][504,597]
+    '2' android.widget.TextView bounds=[358,306][504,597] clickable=false | parent clickable=false bounds=[201,306][504,597]
+    ':' android.widget.TextView bounds=[504,306][576,597] clickable=false | parent clickable=false bounds=[201,306][879,597]
+    '20' android.widget.TextView bounds=[576,306][879,597] clickable=false | parent clickable=false bounds=[201,306][879,597]
+    'Fri, Oct 2' android.widget.TextView bounds=[421,276][659,357] clickable=false | parent clickable=false bounds=[72,276][1008,597]
+DONE

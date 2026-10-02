@@ -1,0 +1,10 @@
+﻿List of devices attached
+a61d9c1b               device product:RMX3661 model:RMX3661 device:RE588BL1 transport_id:1
+
+
+  mCurrentFocus=Window{9b9b1ea u0 
+com.android.launcher/com.android.launcher.Launcher}
+  mFocusedApp=ActivityRecord{267affb u0 
+com.android.launcher/.Launcher t5}
+
+

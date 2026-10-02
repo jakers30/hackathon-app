@@ -1,0 +1,17 @@
+02:20:58
+logbytes=5164
+apk=10/02/2026 02:20:42
+start 02:17:00
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleDebug
+
+BUILD SUCCESSFUL in 3m 43s
+41 actionable tasks: 8 executed, 1 from cache, 32 up-to-date
+== 4/5  adb reverse + install
+   device = a61d9c1b
+8080
+Performing Streamed Install
+Success
+== 5/5  launch
+END

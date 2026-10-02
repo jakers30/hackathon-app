@@ -1,0 +1,15 @@
+﻿=== adb devices ===
+List of devices attached
+a61d9c1b	device
+
+
+=== emulator process ===
+
+=== gradle 8.9 ===
+True
+=== mirror exists ===
+True
+=== ai-proxy .env ===
+True
+=== port 8080 ===
+

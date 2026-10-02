@@ -1,0 +1,25 @@
+﻿Compiled from "BucketApi.kt"
+public final class io.github.jan.supabase.storage.BucketApi$DefaultImpls {
+  public static java.lang.Object upload(io.github.jan.supabase.storage.BucketApi, java.lang.String, byte[], kotlin.jvm.functions.Function1<? super io.github.jan.supabase.storage.UploadOptionBuilder, kotlin.Unit>, kotlin.coroutines.Continuation<? super io.github.jan.supabase.storage.FileUploadResponse>);
+  public static java.lang.Object upload$default(io.github.jan.supabase.storage.BucketApi, java.lang.String, byte[], kotlin.jvm.functions.Function1, kotlin.coroutines.Continuation, int, java.lang.Object);
+  public static java.lang.Object upload$default(io.github.jan.supabase.storage.BucketApi, java.lang.String, io.github.jan.supabase.storage.UploadData, kotlin.jvm.functions.Function1, kotlin.coroutines.Continuation, int, java.lang.Object);
+  public static java.lang.Object uploadToSignedUrl(io.github.jan.supabase.storage.BucketApi, java.lang.String, java.lang.String, byte[], kotlin.jvm.functions.Function1<? super io.github.jan.supabase.storage.UploadOptionBuilder, kotlin.Unit>, kotlin.coroutines.Continuation<? super io.github.jan.supabase.storage.FileUploadResponse>);
+  public static java.lang.Object uploadToSignedUrl$default(io.github.jan.supabase.storage.BucketApi, java.lang.String, java.lang.String, byte[], kotlin.jvm.functions.Function1, kotlin.coroutines.Continuation, int, java.lang.Object);
+  public static java.lang.Object uploadToSignedUrl$default(io.github.jan.supabase.storage.BucketApi, java.lang.String, java.lang.String, io.github.jan.supabase.storage.UploadData, kotlin.jvm.functions.Function1, kotlin.coroutines.Continuation, int, java.lang.Object);
+  public static java.lang.Object update(io.github.jan.supabase.storage.BucketApi, java.lang.String, byte[], kotlin.jvm.functions.Function1<? super io.github.jan.supabase.storage.UploadOptionBuilder, kotlin.Unit>, kotlin.coroutines.Continuation<? super io.github.jan.supabase.storage.FileUploadResponse>);
+  public static java.lang.Object update$default(io.github.jan.supabase.storage.BucketApi, java.lang.String, byte[], kotlin.jvm.functions.Function1, kotlin.coroutines.Continuation, int, java.lang.Object);
+  public static java.lang.Object update$default(io.github.jan.supabase.storage.BucketApi, java.lang.String, io.github.jan.supabase.storage.UploadData, kotlin.jvm.functions.Function1, kotlin.coroutines.Continuation, int, java.lang.Object);
+  public static java.lang.Object delete(io.github.jan.supabase.storage.BucketApi, java.lang.String[], kotlin.coroutines.Continuation<? super kotlin.Unit>);
+  public static java.lang.Object move$default(io.github.jan.supabase.storage.BucketApi, java.lang.String, java.lang.String, java.lang.String, kotlin.coroutines.Continuation, int, java.lang.Object);
+  public static java.lang.Object copy$default(io.github.jan.supabase.storage.BucketApi, java.lang.String, java.lang.String, java.lang.String, kotlin.coroutines.Continuation, int, java.lang.Object);
+  public static java.lang.Object createSignedUploadUrl$default(io.github.jan.supabase.storage.BucketApi, java.lang.String, boolean, kotlin.coroutines.Continuation, int, java.lang.Object);
+  public static java.lang.Object createSignedUrl-dWUq8MI$default(io.github.jan.supabase.storage.BucketApi, java.lang.String, long, kotlin.jvm.functions.Function1, kotlin.coroutines.Continuation, int, java.lang.Object);
+  public static java.lang.Object createSignedUrls-KLykuaI(io.github.jan.supabase.storage.BucketApi, long, java.lang.String[], kotlin.coroutines.Continuation<? super java.util.List<io.github.jan.supabase.storage.SignedUrl>>);
+  public static java.lang.Object downloadAuthenticated$default(io.github.jan.supabase.storage.BucketApi, java.lang.String, kotlin.jvm.functions.Function1, kotlin.coroutines.Continuation, int, java.lang.Object);
+  public static java.lang.Object downloadAuthenticated$default(io.github.jan.supabase.storage.BucketApi, java.lang.String, io.ktor.utils.io.ByteWriteChannel, kotlin.jvm.functions.Function1, kotlin.coroutines.Continuation, int, java.lang.Object);
+  public static java.lang.Object downloadPublic$default(io.github.jan.supabase.storage.BucketApi, java.lang.String, kotlin.jvm.functions.Function1, kotlin.coroutines.Continuation, int, java.lang.Object);
+  public static java.lang.Object downloadPublic$default(io.github.jan.supabase.storage.BucketApi, java.lang.String, io.ktor.utils.io.ByteWriteChannel, kotlin.jvm.functions.Function1, kotlin.coroutines.Continuation, int, java.lang.Object);
+  public static java.lang.Object list$default(io.github.jan.supabase.storage.BucketApi, java.lang.String, kotlin.jvm.functions.Function1, kotlin.coroutines.Continuation, int, java.lang.Object);
+  public static java.lang.String authenticatedRenderUrl$default(io.github.jan.supabase.storage.BucketApi, java.lang.String, kotlin.jvm.functions.Function1, int, java.lang.Object);
+  public static java.lang.String publicRenderUrl$default(io.github.jan.supabase.storage.BucketApi, java.lang.String, kotlin.jvm.functions.Function1, int, java.lang.Object);
+}

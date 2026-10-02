@@ -1,0 +1,8 @@
+start 02:17:00
+run-demo-usb exit 0 at 04:00:27
+--- adb devices -l ---
+List of devices attached
+
+--- adb reverse --list ---
+error: no devices/emulators found
+DONE

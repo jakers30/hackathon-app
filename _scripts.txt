@@ -1,0 +1,17 @@
+=== .ps1 in Hackathon ===
+C:\Users\PREDATOR\OneDrive\Desktop\Hackathon\run-demo-usb.ps1
+C:\Users\PREDATOR\OneDrive\Desktop\Hackathon\run-on-phone.ps1
+C:\Users\PREDATOR\OneDrive\Desktop\Hackathon\start-ai-proxy.ps1
+C:\Users\PREDATOR\OneDrive\Desktop\Hackathon\_probe10.ps1
+C:\Users\PREDATOR\OneDrive\Desktop\Hackathon\_probe9.ps1
+C:\Users\PREDATOR\OneDrive\Desktop\Hackathon\_proxytest.ps1
+C:\Users\PREDATOR\OneDrive\Desktop\Hackathon\_runapp.ps1
+C:\Users\PREDATOR\OneDrive\Desktop\Hackathon\hackathon-app\supabase\purge-storage-orphans.ps1
+C:\Users\PREDATOR\OneDrive\Desktop\Hackathon\hackathon-app\supabase\verify-remote.ps1
+=== .ps1 in AndroidBuild (top level) ===
+C:\Users\PREDATOR\AndroidBuild\_appcompile.ps1
+C:\Users\PREDATOR\AndroidBuild\_dscompile.ps1
+C:\Users\PREDATOR\AndroidBuild\_inspect.ps1
+C:\Users\PREDATOR\AndroidBuild\_uibuild.ps1
+=== .ps1 referencing ai/quiz|reviewer|roadmap|rename|modify ===
+=== END ===

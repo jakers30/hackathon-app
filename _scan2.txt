@@ -1,0 +1,6 @@
+﻿--- supabase jars ---
+--- apk dex search ---
+NOT FOUND supabase.co
+--- jdk zip ---
+52571072
+DONE

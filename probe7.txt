@@ -1,0 +1,13 @@
+﻿=== proxy health ===
+ok
+=== adb reverse ===
+UsbFfs tcp:8080 tcp:8080
+
+=== launch ===
+Starting: Intent { cmp=com.raite.studyroom/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.raite.studyroom/.MainActivity
+TotalTime: 1901
+WaitTime: 1910
+Complete

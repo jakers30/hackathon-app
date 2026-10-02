@@ -1,0 +1,4 @@
+﻿=== recent app logcat (errors) ===
+
+=== _runapp still alive? ===
+True

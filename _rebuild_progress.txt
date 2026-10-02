@@ -1,0 +1,10 @@
+start 02:14:36
+02:14:36  1/4 sync source -> mirror
+02:14:37      robocopy exit 3 (0-7 = ok)
+02:14:37  2/4 stop proxy listening on 8080
+02:14:42  3/4 gradle -p ai-proxy test
+02:15:48      test exit 0
+02:15:48  4/4 start-ai-proxy.ps1
+02:15:55      proxy start exit 0
+02:15:55      /health => 'ok'
+02:15:55  DONE

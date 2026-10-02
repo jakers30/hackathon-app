@@ -1,0 +1,14 @@
+unlock attempt 02:22:45
+--- keyguard state ---
+OplusModifierShortcutManager, mIntentShortcutsVersion : 1, mIntentShortcuts : {16={0=OplusShortcutInfo{launchType=customize, pkgName=null, className=null, action=speech, category=null, launchMode=null, flags=0, extras=null}, 29=OplusShortcutInfo{launchType=customize, pkgName=null, className=null, action=screenshot, category=null, launchMode=null, flags=0, extras={source=2, type=1}}, 31=OplusShortcutInfo{launchType=activity, pkgName=null, className=null, action=oplus.intent.action.CALCULATOR, category=null, launchMode=zoom, flags=335544320, extras=null}, 34=OplusShortcutInfo{launchType=activity, pkgName=null, className=null, action=oplus.intent.action.filemanager.OPEN_FILEMANAGER, category=android.intent.category.DEFAULT, launchMode=null, flags=0, extras=null}, 40=OplusShortcutInfo{launchType=customize, pkgName=null, className=null, action=sleep, category=null, launchMode=null, flags=0, extras={keyguardOn=1}}, 47=OplusShortcutInfo{launchType=activity, pkgName=com.heytap.quicksearchbox, className=com.heytap.quicksearchbox.ui.activity.SearchHomeActivity, action=android.search.action.GLOBAL_SEARCH, category=null, launchMode=null, flags=268435456, extras=null}}}
+mKeyguardOccluded=false mKeyguardOccludedChanged=false mPendingKeyguardOccluded=false
+KeyguardServiceDelegate
+deviceHasKeyguard=true
+KeyguardStateMonitor
+--- wake + swipe up ---
+--- focused window after unlock attempt ---
+mCurrentFocus=Window{711a933 u0 NotificationShade}
+nodes = 42
+texts: Use fingerprint or password to unlock | Emergency SOS
+--- priority chip nodes on the Home quick-add ---
+DONE

@@ -1,0 +1,5 @@
+﻿entries=577
+first=jdk-21.0.12.1+1/
+ZIP OK
+extract launched
+DONE

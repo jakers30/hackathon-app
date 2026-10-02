@@ -1,0 +1,31 @@
+﻿C:\Users\PREDATOR\AppData\Local\Android\Sdk\platform-tools\adb.exe => True
+\platform-tools\adb.exe => False
+\platform-tools\adb.exe => False
+C:\Users\PREDATOR\AppData\Local\Android\Sdk => True
+C:\Android\Sdk => False
+C:\Users\PREDATOR\.android => True
+--- search jdks ---
+C:\Users\PREDATOR\.jdks\openjdk-25.0.2
+--- program files java ---
+C:\Program Files\Java\jdk-26
+C:\Program Files\Java\latest
+--- android studio ---
+C:\Program Files\Android\Android Studio
+--- wrapped.jar ---
+.git
+.gradle
+ai-proxy
+app
+gradle
+supabase
+.env.example
+.gitignore
+build.gradle.kts
+gradle.properties
+README.md
+settings.gradle.kts
+--- gradle dirs ---
+gradle-8.9-bin
+gradle-9.2.0-bin
+gradle-9.3.0-bin
+gradle-9.5.0-bin

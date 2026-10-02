@@ -1,0 +1,25 @@
+env keys:
+SUPABASE_URL=https://nxgybecdhkpfspnfhnjn.supabase.co
+AI_PROVIDER=deepseek
+DEEPSEEK_MODEL=deepseek-flash
+DEEPSEEK_BASE_URL=https://api.deepseek.com
+DEEPSEEK_THINKING=disabled
+mirror .env keys:
+AI_PROVIDER=deepseek
+DEEPSEEK_MODEL=deepseek-flash
+ai-proxy tree:
+C:\Users\PREDATOR\OneDrive\Desktop\Hackathon\hackathon-app\ai-proxy\src\main\kotlin\com\raite\aiproxy\AiProvider.kt
+C:\Users\PREDATOR\OneDrive\Desktop\Hackathon\hackathon-app\ai-proxy\src\main\kotlin\com\raite\aiproxy\Application.kt
+C:\Users\PREDATOR\OneDrive\Desktop\Hackathon\hackathon-app\ai-proxy\src\main\kotlin\com\raite\aiproxy\ClaudeProvider.kt
+C:\Users\PREDATOR\OneDrive\Desktop\Hackathon\hackathon-app\ai-proxy\src\main\kotlin\com\raite\aiproxy\Config.kt
+C:\Users\PREDATOR\OneDrive\Desktop\Hackathon\hackathon-app\ai-proxy\src\main\kotlin\com\raite\aiproxy\DeepSeekProvider.kt
+C:\Users\PREDATOR\OneDrive\Desktop\Hackathon\hackathon-app\ai-proxy\src\main\kotlin\com\raite\aiproxy\FileText.kt
+C:\Users\PREDATOR\OneDrive\Desktop\Hackathon\hackathon-app\ai-proxy\src\main\kotlin\com\raite\aiproxy\GeminiProvider.kt
+C:\Users\PREDATOR\OneDrive\Desktop\Hackathon\hackathon-app\ai-proxy\src\main\kotlin\com\raite\aiproxy\Models.kt
+C:\Users\PREDATOR\OneDrive\Desktop\Hackathon\hackathon-app\ai-proxy\src\main\kotlin\com\raite\aiproxy\Prompts.kt
+C:\Users\PREDATOR\OneDrive\Desktop\Hackathon\hackathon-app\ai-proxy\src\main\kotlin\com\raite\aiproxy\Routes.kt
+C:\Users\PREDATOR\OneDrive\Desktop\Hackathon\hackathon-app\ai-proxy\src\main\kotlin\com\raite\aiproxy\Routes2.kt
+C:\Users\PREDATOR\OneDrive\Desktop\Hackathon\hackathon-app\ai-proxy\src\main\kotlin\com\raite\aiproxy\SupabaseApi.kt
+C:\Users\PREDATOR\OneDrive\Desktop\Hackathon\hackathon-app\ai-proxy\build.gradle.kts
+C:\Users\PREDATOR\OneDrive\Desktop\Hackathon\hackathon-app\ai-proxy\settings.gradle.kts
+END

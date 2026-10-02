@@ -1,0 +1,25 @@
+﻿--- reconnect ---
+adb.exe : * daemon not running; starting now at tcp:5037
+At line:1 char:255
++ ... ut-File $out -Append -Encoding utf8; & $adb start-server 2>&1 | 
+Out-F ...
++                                          ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (* daemon not ru...now at 
+    tcp:5037:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+* daemon started successfully
+List of devices attached
+a61d9c1b               device product:RMX3661 model:RMX3661 device:RE588BL1 transport_id:1
+
+--- existing apk ---
+
+
+FullName      : C:\Users\PREDATOR\OneDrive\Desktop\Hackathon\hackathon
+                -app\app\build\outputs\apk\debug\app-debug.apk
+Length        : 22159308
+LastWriteTime : 10/1/2026 4:36:50 PM
+
+
+
+--- DONE ---

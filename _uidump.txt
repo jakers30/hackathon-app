@@ -1,0 +1,23 @@
+ui dump 02:21:24
+--- adb devices -l ---
+List of devices attached
+a61d9c1b               device product:RMX3661 model:RMX3661 device:RE588BL1 transport_id:1
+
+--- adb reverse --list ---
+UsbFfs tcp:8080 tcp:8080
+
+--- focused window ---
+mCurrentFocus=Window{711a933 u0 NotificationShade}
+mFocusedApp=ActivityRecord{c802887 u0 com.raite.studyroom/.MainActivity t4119}
+--- ui dump ---
+UI hierchary dumped to: /sdcard/_ui2.xml
+/sdcard/_ui2.xml: 1 file pulled, 0 skipped. 5.6 MB/s (53444 bytes in 0.009s)
+nodes = 146
+text 'Add a task' matches = 0
+text 'Low' matches = 0
+text 'Medium' matches = 0
+text 'High' matches = 0
+text 'Add' matches = 0
+text 'Hi,' matches = 0
+--- every Low/Medium/High-class node (with clickable ancestors) ---
+DONE

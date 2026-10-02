@@ -1,0 +1,13 @@
+﻿--- adb.exe search (common roots) ---
+C:\Users\PREDATOR\AppData\Local\Android\Sdk\platform-tools\adb.exe
+--- gradle exe ---
+--- studio ---
+C:\Program Files\Android
+--- jetbrains toolbox / apps ---
+Common
+Microsoft VS Code
+Opera GX
+--- android homes env ---
+ANDROID_HOME=
+ANDROID_SDK_ROOT=
+--- DONE ---

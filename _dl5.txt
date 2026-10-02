@@ -1,0 +1,2 @@
+﻿size1=205073461
+curlProcs=0
